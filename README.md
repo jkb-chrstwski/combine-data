@@ -1,6 +1,6 @@
 # Combine Function
 
-A simple JavaScript function that generates a combination set from giben parameters.
+A simple JavaScript function that generates a combination set from given parameters.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ const params = [
     [6]
 ];
 
-const combinations = combine();
+const combinations = combine(params);
 console.log(combinations); 
 // Output: 
 //[
@@ -51,3 +51,6 @@ A function that processes the input parameters into combinations.
 
 
 Returns the generated combinations.
+
+## License
+This project is licensed under the MIT License.
